@@ -1,0 +1,2 @@
+# cowcounter
+Udacity homework
