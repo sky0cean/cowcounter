@@ -6,23 +6,23 @@
     <title>Cow counter</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-       </heacd>
+</head>
 
-    <body>
-        <div class="container" style="text-align:center">
-            <button id="clickme"><img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Cow_cartoon_04.svg"></button>
-            <div id="counter">Counter: 0</div>
-        </div>
-        <script>
-        var button = document.getElementById("clickme");
+<body>
+    <div style="text-align: center;">
+        <button id="clickme"><img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Cow_cartoon_04.svg"></button>
+        <div id="counter">Counter: 0</div>
+    </div>
+    <script>
+    var button = document.getElementById("clickme");
 
-        count = 0;
+    count = 0;
 
-        button.onclick = function() {
-            count += 1;
-            counter.innerHTML = "counter: " + count;
-        };
-        </script>
-    </body>
+    button.onclick = function() {
+        count += 1;
+        counter.innerHTML = "counter: " + count;
+    };
+    </script>
+</body>
 
 </html>
