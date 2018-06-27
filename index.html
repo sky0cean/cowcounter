@@ -9,17 +9,21 @@
 </head>
 
 <body>
+    <!--a cow image in the middle, centered horizontally on the page-->
     <div style="text-align: center;">
+    <!--make button with the cow image-->
         <button id="clickme"><img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Cow_cartoon_04.svg"></button>
+    <!--counter below the cow image-->
         <div id="counter">Counter: 0</div>
     </div>
     <script>
+    //Get the element with id ="clickme" to apply onclick event to the id later
     var button = document.getElementById("clickme");
-
+    //count starts from 0
     count = 0;
-
+    //every time you click the cow image, the counter is incremented by 1
     button.onclick = function() {
-        count += 1;
+        count ++;
         counter.innerHTML = "counter: " + count;
     };
     </script>
